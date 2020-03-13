@@ -1,0 +1,15 @@
+.notinvited {
+  border: 2px solid #ccc;
+  background-color: #7f78d2;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.notinvited img {
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #ffe2ff;
+}

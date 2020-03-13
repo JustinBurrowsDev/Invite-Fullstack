@@ -1,38 +1,40 @@
-import { useEffect } from "react"
-import { useSelector, useDispatch } from "react-redux"
-import axios from "axios"
+// import { useEffect } from "react"
+// import { useSelector, useDispatch } from "react-redux"
+// import axios from "axios"
 
-const GET_EXAMPLE = "ex/GET_EXAMPLE"
+// const GET_USER = "ex/GET_EXAMPLE"
 
-const initialState = {
-  foo: "bar"
-}
+// const initialState = {
+//   user: {}
+// }
 
-export default (state = initialState, action) => {
-  switch (action.type) {
-    case GET_EXAMPLE:
-      return { ...state, foo: action.payload }
-    default:
-      return state
-  }
-}
+// export default (state = initialState, action) => {
+//   switch (action.type) {
+//     case GET_USER:
+//       return { ...state, user: action.payload }
+//     default:
+//       return state
+//   }
+// }
 
-function getExample() {
-  return dispatch => {
-    axios.get("/api").then(resp => {
-      const data = resp.data
-      dispatch({
-        type: GET_EXAMPLE,
-        payload: data.message
-      })
-    })
-  }
-}
+// function getExample() {
+//   return dispatch => {
+//     axios.get("/api/user").then(resp => {
+//       const data = resp.data
+//       dispatch({
+//         type: GET_USER,
+//         payload: data
+//       })
+//     })
+//   }
+// }
 
-export function useExample() {
-  const dispatch = useDispatch()
-  const foo = useSelector(appState => appState.exampleState.foo)
-  const get = () => dispatch(getExample())
+// export function useExample() {
+//   const dispatch = useDispatch()
+//   const user = useSelector(appState => appState.exampleState.user)
 
-  return { foo, get }
-}
+//   useEffect(() => {
+//     dispatch(getExample())
+//   }, [dispatch])
+//   return { user }
+// }
