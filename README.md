@@ -2,4 +2,3 @@
 
 
 
-![i](invitationapp.png)
