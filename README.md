@@ -10,11 +10,11 @@ I first started off by clearly defining what I wanted to happen in the applicati
 
 ## What Did I Learn? 
 
-Use Ajax to call your express application and display a data object 
-Create and find the routes 
-Reinforce JavaScript concepts 
-Sharpened CSS skills
-Setting up a database 
-Working with and NPM modules
+* Use Ajax to call your express application and display a data object 
+* Create and find the routes 
+* Reinforce JavaScript concepts 
+* Sharpened CSS skills
+* Setting up a database 
+* Working with and NPM modules
 
 ![i](invitationpic.png)
